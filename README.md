@@ -6,7 +6,11 @@ Author: [Biao Wu](https://scholar.google.com/citations?user=Y3SBBWMAAAAJ&hl=en)\
 
 [[**Paper Link**](https://arxiv.org/pdf/2407.19546)] [[Papers With Code](https://paperswithcode.com/paper/xlip-cross-modal-attention-masked-modelling)]
 
-![MMCLIP](image_first_0302_1-2.png)
+
+
+https://github.com/user-attachments/assets/5b0065ef-be10-4d6d-ace4-35d42ec3eae0
+
+
 
 ## News
 
@@ -15,6 +19,8 @@ Author: [Biao Wu](https://scholar.google.com/citations?user=Y3SBBWMAAAAJ&hl=en)\
 ## Abstract
 
 Vision-and-language pretraining (VLP) in the medical field utilizes contrastive learning on image-text pairs to achieve effective transfer across tasks. Yet, current VLP approaches with the masked modeling strategy face two challenges when applied to the medical domain. First, current models struggle to accurately reconstruct key pathological features due to the scarcity of medical data. Second, most methods only adopt either paired image-text or image-only data, failing to exploit the combination of both paired and unpaired data. To this end, this paper proposes the MMCLIP (Masked Medical Contrastive Language-Image Pre-Training) framework to enhance pathological learning and feature learning via unpaired data. First, we introduce the attention-masked image modeling (AttMIM) and entity-driven masked language modeling module (EntMLM), which learns to reconstruct pathological visual and textual tokens via multi-modal feature interaction, thus improving medical-enhanced features. The AttMIM module masks a portion of the image features that are highly responsive to textual features. This allows MMCLIP to improve the reconstruction of highly similar image data in medicine efficiency. Second, our MMCLIP capitalizes unpaired data to enhance multimodal learning by introducing disease-kind prompts. The experimental results show that MMCLIP achieves SOTA for zero-shot and fine-tuning classification performance on five datasets.
+
+![MMCLIP](image_first_0302_1-2.png)
 
 ## Introduction
 
